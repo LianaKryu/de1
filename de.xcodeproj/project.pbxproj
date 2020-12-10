@@ -7,15 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		080F307925812AA100E275F2 /* OtdelTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 080F307825812AA100E275F2 /* OtdelTableViewController.swift */; };
+		080F307C25812BBF00E275F2 /* OtdelTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 080F307B25812BBF00E275F2 /* OtdelTableViewCell.swift */; };
+		080F307F25812C1400E275F2 /* KursTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 080F307E25812C1400E275F2 /* KursTableViewCell.swift */; };
+		080F308225812C5100E275F2 /* KursTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 080F308125812C5100E275F2 /* KursTableViewController.swift */; };
+		0844CCF425829ABA00750889 /* ShowMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0844CCF325829ABA00750889 /* ShowMapViewController.swift */; };
 		0860547F257FBB10003649CC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0860547E257FBB10003649CC /* AppDelegate.swift */; };
 		08605481257FBB10003649CC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08605480257FBB10003649CC /* SceneDelegate.swift */; };
 		08605483257FBB10003649CC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08605482257FBB10003649CC /* ViewController.swift */; };
 		08605486257FBB10003649CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08605484257FBB10003649CC /* Main.storyboard */; };
 		08605488257FBB13003649CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08605487257FBB13003649CC /* Assets.xcassets */; };
 		0860548B257FBB13003649CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08605489257FBB13003649CC /* LaunchScreen.storyboard */; };
+		086E14822582197A00F4DF12 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 086E14812582197A00F4DF12 /* MapKit.framework */; };
+		086E1484258219E900F4DF12 /* MapOtdelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 086E1483258219E900F4DF12 /* MapOtdelViewController.swift */; };
+		086E148725821F9300F4DF12 /* MapOtdelTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 086E148625821F9300F4DF12 /* MapOtdelTableViewCell.swift */; };
+		086E148A258247C200F4DF12 /* Otdels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 086E1489258247C200F4DF12 /* Otdels.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		080F307825812AA100E275F2 /* OtdelTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtdelTableViewController.swift; sourceTree = "<group>"; };
+		080F307B25812BBF00E275F2 /* OtdelTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtdelTableViewCell.swift; sourceTree = "<group>"; };
+		080F307E25812C1400E275F2 /* KursTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KursTableViewCell.swift; sourceTree = "<group>"; };
+		080F308125812C5100E275F2 /* KursTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KursTableViewController.swift; sourceTree = "<group>"; };
+		0844CCF325829ABA00750889 /* ShowMapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowMapViewController.swift; sourceTree = "<group>"; };
 		0860547B257FBB10003649CC /* de.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = de.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0860547E257FBB10003649CC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		08605480257FBB10003649CC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +38,10 @@
 		08605487257FBB13003649CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0860548A257FBB13003649CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0860548C257FBB13003649CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		086E14812582197A00F4DF12 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		086E1483258219E900F4DF12 /* MapOtdelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapOtdelViewController.swift; sourceTree = "<group>"; };
+		086E148625821F9300F4DF12 /* MapOtdelTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapOtdelTableViewCell.swift; sourceTree = "<group>"; };
+		086E1489258247C200F4DF12 /* Otdels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Otdels.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				086E14822582197A00F4DF12 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +61,7 @@
 			children = (
 				0860547D257FBB10003649CC /* de */,
 				0860547C257FBB10003649CC /* Products */,
+				086E14802582197A00F4DF12 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,11 +80,27 @@
 				08605480257FBB10003649CC /* SceneDelegate.swift */,
 				08605482257FBB10003649CC /* ViewController.swift */,
 				08605484257FBB10003649CC /* Main.storyboard */,
+				0844CCF325829ABA00750889 /* ShowMapViewController.swift */,
+				086E148625821F9300F4DF12 /* MapOtdelTableViewCell.swift */,
+				086E1483258219E900F4DF12 /* MapOtdelViewController.swift */,
+				086E1489258247C200F4DF12 /* Otdels.swift */,
+				080F308125812C5100E275F2 /* KursTableViewController.swift */,
+				080F307E25812C1400E275F2 /* KursTableViewCell.swift */,
+				080F307B25812BBF00E275F2 /* OtdelTableViewCell.swift */,
+				080F307825812AA100E275F2 /* OtdelTableViewController.swift */,
 				08605487257FBB13003649CC /* Assets.xcassets */,
 				08605489257FBB13003649CC /* LaunchScreen.storyboard */,
 				0860548C257FBB13003649CC /* Info.plist */,
 			);
 			path = de;
+			sourceTree = "<group>";
+		};
+		086E14802582197A00F4DF12 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				086E14812582197A00F4DF12 /* MapKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,9 +173,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				080F307F25812C1400E275F2 /* KursTableViewCell.swift in Sources */,
+				080F308225812C5100E275F2 /* KursTableViewController.swift in Sources */,
+				080F307925812AA100E275F2 /* OtdelTableViewController.swift in Sources */,
+				0844CCF425829ABA00750889 /* ShowMapViewController.swift in Sources */,
+				086E148725821F9300F4DF12 /* MapOtdelTableViewCell.swift in Sources */,
 				08605483257FBB10003649CC /* ViewController.swift in Sources */,
+				086E1484258219E900F4DF12 /* MapOtdelViewController.swift in Sources */,
 				0860547F257FBB10003649CC /* AppDelegate.swift in Sources */,
 				08605481257FBB10003649CC /* SceneDelegate.swift in Sources */,
+				086E148A258247C200F4DF12 /* Otdels.swift in Sources */,
+				080F307C25812BBF00E275F2 /* OtdelTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
